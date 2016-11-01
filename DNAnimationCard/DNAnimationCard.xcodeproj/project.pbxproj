@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		519271781DC8476600B5D6AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519271771DC8476600B5D6AB /* AppDelegate.swift */; };
+		5192717A1DC8476600B5D6AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519271791DC8476600B5D6AB /* ViewController.swift */; };
+		5192717D1DC8476600B5D6AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5192717B1DC8476600B5D6AB /* Main.storyboard */; };
+		5192717F1DC8476600B5D6AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5192717E1DC8476600B5D6AB /* Assets.xcassets */; };
+		519271821DC8476600B5D6AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 519271801DC8476600B5D6AB /* LaunchScreen.storyboard */; };
+		5192718D1DC8476600B5D6AB /* DNAnimationCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5192718C1DC8476600B5D6AB /* DNAnimationCardTests.swift */; };
+		519271981DC8476600B5D6AB /* DNAnimationCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519271971DC8476600B5D6AB /* DNAnimationCardUITests.swift */; };
+		519271A61DC8484F00B5D6AB /* DNFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519271A51DC8484F00B5D6AB /* DNFlowLayout.swift */; };
+		519271A81DC864F200B5D6AB /* DNViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519271A71DC864F200B5D6AB /* DNViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		519271891DC8476600B5D6AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5192716C1DC8476600B5D6AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 519271731DC8476600B5D6AB;
+			remoteInfo = DNAnimationCard;
+		};
+		519271941DC8476600B5D6AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5192716C1DC8476600B5D6AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 519271731DC8476600B5D6AB;
+			remoteInfo = DNAnimationCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		519271741DC8476600B5D6AB /* DNAnimationCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNAnimationCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		519271771DC8476600B5D6AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		519271791DC8476600B5D6AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5192717C1DC8476600B5D6AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5192717E1DC8476600B5D6AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../DNAnimationCard/Assets.xcassets; sourceTree = "<group>"; };
+		519271811DC8476600B5D6AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		519271831DC8476600B5D6AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../DNAnimationCard/Info.plist; sourceTree = "<group>"; };
+		519271881DC8476600B5D6AB /* DNAnimationCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DNAnimationCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5192718C1DC8476600B5D6AB /* DNAnimationCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNAnimationCardTests.swift; sourceTree = "<group>"; };
+		5192718E1DC8476600B5D6AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		519271931DC8476600B5D6AB /* DNAnimationCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DNAnimationCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		519271971DC8476600B5D6AB /* DNAnimationCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNAnimationCardUITests.swift; sourceTree = "<group>"; };
+		519271991DC8476600B5D6AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		519271A51DC8484F00B5D6AB /* DNFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNFlowLayout.swift; sourceTree = "<group>"; };
+		519271A71DC864F200B5D6AB /* DNViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		519271711DC8476600B5D6AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		519271851DC8476600B5D6AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		519271901DC8476600B5D6AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5192716B1DC8476600B5D6AB = {
+			isa = PBXGroup;
+			children = (
+				519271761DC8476600B5D6AB /* DNAnimationCard */,
+				5192718B1DC8476600B5D6AB /* DNAnimationCardTests */,
+				519271961DC8476600B5D6AB /* DNAnimationCardUITests */,
+				519271751DC8476600B5D6AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		519271751DC8476600B5D6AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				519271741DC8476600B5D6AB /* DNAnimationCard.app */,
+				519271881DC8476600B5D6AB /* DNAnimationCardTests.xctest */,
+				519271931DC8476600B5D6AB /* DNAnimationCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		519271761DC8476600B5D6AB /* DNAnimationCard */ = {
+			isa = PBXGroup;
+			children = (
+				519271771DC8476600B5D6AB /* AppDelegate.swift */,
+				519271791DC8476600B5D6AB /* ViewController.swift */,
+				519271A51DC8484F00B5D6AB /* DNFlowLayout.swift */,
+				519271A71DC864F200B5D6AB /* DNViewCell.swift */,
+			);
+			path = DNAnimationCard;
+			sourceTree = "<group>";
+		};
+		5192718B1DC8476600B5D6AB /* DNAnimationCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				5192717B1DC8476600B5D6AB /* Main.storyboard */,
+				5192717E1DC8476600B5D6AB /* Assets.xcassets */,
+				519271801DC8476600B5D6AB /* LaunchScreen.storyboard */,
+				519271831DC8476600B5D6AB /* Info.plist */,
+				5192718C1DC8476600B5D6AB /* DNAnimationCardTests.swift */,
+				5192718E1DC8476600B5D6AB /* Info.plist */,
+			);
+			path = DNAnimationCardTests;
+			sourceTree = "<group>";
+		};
+		519271961DC8476600B5D6AB /* DNAnimationCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				519271971DC8476600B5D6AB /* DNAnimationCardUITests.swift */,
+				519271991DC8476600B5D6AB /* Info.plist */,
+			);
+			path = DNAnimationCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		519271731DC8476600B5D6AB /* DNAnimationCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5192719C1DC8476600B5D6AB /* Build configuration list for PBXNativeTarget "DNAnimationCard" */;
+			buildPhases = (
+				519271701DC8476600B5D6AB /* Sources */,
+				519271711DC8476600B5D6AB /* Frameworks */,
+				519271721DC8476600B5D6AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DNAnimationCard;
+			productName = DNAnimationCard;
+			productReference = 519271741DC8476600B5D6AB /* DNAnimationCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		519271871DC8476600B5D6AB /* DNAnimationCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5192719F1DC8476600B5D6AB /* Build configuration list for PBXNativeTarget "DNAnimationCardTests" */;
+			buildPhases = (
+				519271841DC8476600B5D6AB /* Sources */,
+				519271851DC8476600B5D6AB /* Frameworks */,
+				519271861DC8476600B5D6AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5192718A1DC8476600B5D6AB /* PBXTargetDependency */,
+			);
+			name = DNAnimationCardTests;
+			productName = DNAnimationCardTests;
+			productReference = 519271881DC8476600B5D6AB /* DNAnimationCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		519271921DC8476600B5D6AB /* DNAnimationCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 519271A21DC8476600B5D6AB /* Build configuration list for PBXNativeTarget "DNAnimationCardUITests" */;
+			buildPhases = (
+				5192718F1DC8476600B5D6AB /* Sources */,
+				519271901DC8476600B5D6AB /* Frameworks */,
+				519271911DC8476600B5D6AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				519271951DC8476600B5D6AB /* PBXTargetDependency */,
+			);
+			name = DNAnimationCardUITests;
+			productName = DNAnimationCardUITests;
+			productReference = 519271931DC8476600B5D6AB /* DNAnimationCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5192716C1DC8476600B5D6AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = wjn;
+				TargetAttributes = {
+					519271731DC8476600B5D6AB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					519271871DC8476600B5D6AB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 519271731DC8476600B5D6AB;
+					};
+					519271921DC8476600B5D6AB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 519271731DC8476600B5D6AB;
+					};
+				};
+			};
+			buildConfigurationList = 5192716F1DC8476600B5D6AB /* Build configuration list for PBXProject "DNAnimationCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5192716B1DC8476600B5D6AB;
+			productRefGroup = 519271751DC8476600B5D6AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				519271731DC8476600B5D6AB /* DNAnimationCard */,
+				519271871DC8476600B5D6AB /* DNAnimationCardTests */,
+				519271921DC8476600B5D6AB /* DNAnimationCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		519271721DC8476600B5D6AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				519271821DC8476600B5D6AB /* LaunchScreen.storyboard in Resources */,
+				5192717F1DC8476600B5D6AB /* Assets.xcassets in Resources */,
+				5192717D1DC8476600B5D6AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		519271861DC8476600B5D6AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		519271911DC8476600B5D6AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		519271701DC8476600B5D6AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				519271A81DC864F200B5D6AB /* DNViewCell.swift in Sources */,
+				5192717A1DC8476600B5D6AB /* ViewController.swift in Sources */,
+				519271A61DC8484F00B5D6AB /* DNFlowLayout.swift in Sources */,
+				519271781DC8476600B5D6AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		519271841DC8476600B5D6AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5192718D1DC8476600B5D6AB /* DNAnimationCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5192718F1DC8476600B5D6AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				519271981DC8476600B5D6AB /* DNAnimationCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5192718A1DC8476600B5D6AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 519271731DC8476600B5D6AB /* DNAnimationCard */;
+			targetProxy = 519271891DC8476600B5D6AB /* PBXContainerItemProxy */;
+		};
+		519271951DC8476600B5D6AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 519271731DC8476600B5D6AB /* DNAnimationCard */;
+			targetProxy = 519271941DC8476600B5D6AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5192717B1DC8476600B5D6AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5192717C1DC8476600B5D6AB /* Base */,
+			);
+			name = Main.storyboard;
+			path = ../DNAnimationCard;
+			sourceTree = "<group>";
+		};
+		519271801DC8476600B5D6AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				519271811DC8476600B5D6AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ../DNAnimationCard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5192719A1DC8476600B5D6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5192719B1DC8476600B5D6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5192719D1DC8476600B5D6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DNAnimationCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.DNAnimationCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5192719E1DC8476600B5D6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DNAnimationCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.DNAnimationCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		519271A01DC8476600B5D6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DNAnimationCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.DNAnimationCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DNAnimationCard.app/DNAnimationCard";
+			};
+			name = Debug;
+		};
+		519271A11DC8476600B5D6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DNAnimationCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.DNAnimationCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DNAnimationCard.app/DNAnimationCard";
+			};
+			name = Release;
+		};
+		519271A31DC8476600B5D6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DNAnimationCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.DNAnimationCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DNAnimationCard;
+			};
+			name = Debug;
+		};
+		519271A41DC8476600B5D6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DNAnimationCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.DNAnimationCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DNAnimationCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5192716F1DC8476600B5D6AB /* Build configuration list for PBXProject "DNAnimationCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5192719A1DC8476600B5D6AB /* Debug */,
+				5192719B1DC8476600B5D6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5192719C1DC8476600B5D6AB /* Build configuration list for PBXNativeTarget "DNAnimationCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5192719D1DC8476600B5D6AB /* Debug */,
+				5192719E1DC8476600B5D6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5192719F1DC8476600B5D6AB /* Build configuration list for PBXNativeTarget "DNAnimationCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				519271A01DC8476600B5D6AB /* Debug */,
+				519271A11DC8476600B5D6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		519271A21DC8476600B5D6AB /* Build configuration list for PBXNativeTarget "DNAnimationCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				519271A31DC8476600B5D6AB /* Debug */,
+				519271A41DC8476600B5D6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5192716C1DC8476600B5D6AB /* Project object */;
+}
